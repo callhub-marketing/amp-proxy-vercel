@@ -18,7 +18,7 @@ module.exports = async (req, res) => {
   }
 
   try {
-    const appsScriptUrl = 'https://script.google.com/macros/s/AKfycbyJWMM75SKti0AZOnpUJY6GT1ut4gkS0-3ZYu8AgwZnjZ24S4W3Y_VoqUWwN5xHrT1_1Q/exec';
+    const appsScriptUrl = 'https://script.google.com/macros/s/AKfycbyFSwRozHeYlwgqL6ONwUFk6ZiwjJzvKykyRsWpz_4VHGOiXb6jQtPlLmkP_iIZAElW/exec';
 
     const urlParams = new URLSearchParams(req.query).toString();
     const urlWithParams = appsScriptUrl + (urlParams ? '?' + urlParams : '');
